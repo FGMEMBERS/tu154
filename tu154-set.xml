@@ -67,10 +67,10 @@
    </config>
  </autopilot>
 
- <radios>
+ <instrumentation>
    <dme n="0">
       <switch-position type="int">1</switch-position>
    </dme>
- </radios>
+ </instrumentation>
 
 </PropertyList>
