@@ -3,6 +3,7 @@
  <sim>
 
   <description>Tupolev 154 (YASim)</description>
+  <author>Ilia Pavlenko, Ilja Moderau, Denis Okan and Mike Savchenko</author>
 
   <flight-model>yasim</flight-model>
   <aero>tu154</aero>
