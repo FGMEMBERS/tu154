@@ -1,13 +1,80 @@
 <?xml version="1.0"?>
-
-<!-- <PropertyList include="tu154-yasim-set.xml">
+<PropertyList>
  <sim>
-  <description>Alias for tu154-yasim.</description>
- </sim>
-</PropertyList> -->
 
-<PropertyList include="tu154-jsbsim-set.xml">
- <sim>
-  <description>Alias for tu154-jsbsim.</description>
+  <description>Tupolev 154 (YASim)</description>
+
+  <flight-model>yasim</flight-model>
+  <aero>tu154</aero>
+  <fuel-fraction>0.5</fuel-fraction>
+
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+
+  <systems>
+   <electrical>
+    <path>Aircraft/tu154/Systems/tu154-electrical.xml</path>
+   </electrical>
+  </systems> 
+  
+  <sound>
+   <audible>true</audible>
+   <path>Aircraft/tu154/tu154-sound.xml</path>
+   <volume>
+      <gear type="double">0.4</gear>
+   </volume>
+  </sound>
+
+  <panel>
+   <path>Aircraft/tu154/Panels/tu154-panel.xml</path>
+   <visibility>true</visibility>
+  </panel>
+
+  <hud>
+   <path>Huds/Custom/default.xml</path>
+   <visibility>false</visibility>
+   <enable3d>false</enable3d>
+  </hud>
+  
+  <model>
+   <path>Aircraft/tu154/Models/tu154-model.xml</path> 
+<!--    <path>Aircraft/tu154/Models/tu154.ac</path> -->
+  </model>
+
+  <view>
+   <internal archive="y">true</internal>
+   <config>
+     <!-- x/y/z == right/up3.26/back-18.16 -->
+     <x-offset-m archive="y">-0.38</x-offset-m>
+     <y-offset-m archive="y">3.00</y-offset-m>
+     <z-offset-m archive="y">-18.16</z-offset-m>
+     <target-z-offset-m archive="y" type="double">3.949</target-z-offset-m>
+     <pitch-offset-deg archive="y">-13.0</pitch-offset-deg>
+   </config>
+  </view>
+
+  <chase-distance-m type="double" archive="y">-90.0</chase-distance-m>
  </sim>
+
+ <autopilot>
+   <config>
+     <min-climb-speed-kt type="float">150.0</min-climb-speed-kt>
+     <best-climb-speed-kt type="float">200.0</best-climb-speed-kt>
+     <target-climb-rate-fpm type="float">2000.0</target-climb-rate-fpm>
+     <target-descent-rate-fpm type="float">1500.0</target-descent-rate-fpm>
+     <elevator-adj-factor type="float">1500.0</elevator-adj-factor>
+     <integral-contribution type="float">0.005</integral-contribution>
+     <zero-pitch-throttle type="float">0.0001</zero-pitch-throttle>
+     <zero-pitch-trim-full-throttle type="float">0.0001</zero-pitch-trim-full-throttle>
+     <max-roll-deg type="float">30</max-roll-deg>
+     <max-aileron type="float">1.0</max-aileron>
+     <indicated-heading-magnetic type="bool">true</indicated-heading-magnetic>
+   </config>
+ </autopilot>
+
+ <radios>
+   <dme n="0">
+      <switch-position type="int">1</switch-position>
+   </dme>
+ </radios>
+
 </PropertyList>
