@@ -24,6 +24,11 @@ Tupolev 154B-2 model/animation config.
   </offsets>
  </model>
 
+ <model>
+  <path>Aircraft/tu154/Models/3d-instruments.xml</path>
+ </model>
+
+
  <animation>
   <type>select</type>
   <object-name>Fuselage</object-name>

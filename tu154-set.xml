@@ -22,7 +22,7 @@
 
   <panel>
    <path>Aircraft/tu154/Panels/tu154-panel.xml</path>
-   <visibility>true</visibility>
+   <visibility>false</visibility>
   </panel>
 
   <hud>
