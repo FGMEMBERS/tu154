@@ -17,11 +17,7 @@
   </systems> 
   
   <sound>
-   <audible>true</audible>
    <path>Aircraft/tu154/tu154-sound.xml</path>
-   <volume>
-      <gear type="double">0.4</gear>
-   </volume>
   </sound>
 
   <panel>
