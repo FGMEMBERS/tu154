@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<name>Analogue Russian Clock</name>
+ <w-base>120</w-base>
+ <h-base>120</h-base>
+
+
+<layers>
+ <layer>
+  <name>bezel</name>
+  <condition>
+  <equals>
+  <property>/sim/aero</property>
+  <value>tu154</value>
+  </equals>
+  </condition>
+  <texture>
+  <path>Aircraft/Instruments/Textures/bezel.rgb</path>
+  <x1>0.0</x1>
+  <y1>0.0</y1>
+  <x2>1.0</x2>
+  <y2>1.0</y2>
+ </texture>
+   <transformations>
+   <transformation>
+      <type>y-shift</type>
+      <offset>0</offset>
+   </transformation>
+   <transformation>
+     <type>x-shift</type>
+     <offset>-0</offset>
+   </transformation>
+   </transformations>
+     <w>120</w>
+     <h>120</h>
+  </layer>
+
+ <layer>
+       <name>hours</name>
+       <texture>
+       <path>Aircraft/Instruments/Textures/misc-1.rgb</path>
+       <x1>0.8</x1>
+       <y1>0.78125</y1>
+       <x2>0.8375</x2>
+       <y2>1.0</y2>
+      </texture>
+      <w>7.0</w>
+      <h>30</h>
+      <transformations>
+      <transformation>
+      <type>rotation</type>
+      <property>/sim/time/utc/day-seconds</property>
+      <factor>0.008333</factor>
+      </transformation>
+      <transformation>
+      <type>y-shift</type>
+      <offset>16</offset>
+      </transformation>
+      </transformations>
+ </layer>
+
+
+ <layer>
+       <name>seconds</name>
+       <texture>
+       <path>Aircraft/Instruments/Textures/misc-1.rgb</path>
+       <x1>0.8</x1>
+       <y1>0.78125</y1>
+       <x2>0.8375</x2>
+       <y2>1.0</y2>
+      </texture>
+      <w>3.5</w>
+      <h>50</h>
+      <transformations>
+      <transformation>
+      <type>rotation</type>
+      <property>/sim/time/utc/day-seconds</property>
+      <factor>6</factor>
+      </transformation>
+      <transformation>
+      <type>y-shift</type>
+      <offset>16</offset>
+      </transformation>
+      </transformations>
+ </layer>
+
+
+ <layer>
+       <name>minutes</name>
+       <texture>
+       <path>Aircraft/Instruments/Textures/misc-1.rgb</path>
+       <x1>0.8</x1>
+       <y1>0.78125</y1>
+       <x2>0.8375</x2>
+       <y2>1.0</y2>
+      </texture>
+      <w>5.5</w>
+      <h>44</h>
+      <transformations>
+      <transformation>
+      <type>rotation</type>
+      <property>/sim/time/utc/day-seconds</property>
+      <factor>0.1</factor>
+      </transformation>
+      <transformation>
+      <type>y-shift</type>
+      <offset>16</offset>
+      </transformation>
+      </transformations>
+ </layer>
+
+
+</layers>
+</PropertyList>

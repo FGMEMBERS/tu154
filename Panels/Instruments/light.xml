@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+
+  <name>light switch</name>
+  <type>switch</type>
+  <params>
+  <strobe-select>/controls/lights/strobes[0]</strobe-select>
+  </params>
+  
+       
+				
+  <layer>
+     <name>elec on</name>
+     <condition>
+     <property alias="../../../../../params/strobe-select"/>
+     </condition>
+     <texture>
+     <path>Aircraft/tu154/Panels/Instruments/Textures/switches.rgb</path>
+     <x1>0.0</x1>
+     <y1>0.75</y1>
+     <x2>0.25</x2>
+     <y2>1.0</y2>
+    </texture>
+    <w>12</w>
+    <h>12</h>
+  <actions> 
+  <action>
+  <name>toggle strobe light</name>
+  <button>0</button>
+       <binding>
+         <command>property-toggle</command>
+         <property>/controls/lights/strobes</property>
+       </binding>
+  </action>
+  </actions>
+   <transformations>
+    <transformation>
+     <type>y-shift</type>
+     <offset>1</offset>
+    </transformation>
+   </transformations>
+  </layer>
+  
+
+</PropertyList>

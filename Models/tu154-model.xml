@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>tu154.ac</path>
+
+ <offsets>
+   <z-m>-0.5</z-m>
+   <x-m>-23.00</x-m>
+ </offsets> 
+
+ <!-- Object Selection -->
+
+ <animation>
+  <type>select</type>
+  <object-name>leftgear</object-name>
+  <object-name>rightgear</object-name>
+  <condition>
+   <greater-than>
+    <property>/gear/gear[1]/position-norm</property>
+    <value>0.01</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <!-- Object Movement -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>leftgear</object-name>
+  <property>/gear/gear[1]/position-norm</property>
+  <factor>90</factor>
+  <offset-deg>-90</offset-deg>
+  <center>
+   <x-m>25.9</x-m>
+   <y-m>-5.65</y-m>
+   <z-m>-1.5</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>rightgear</object-name>
+  <property>/gear/gear[1]/position-norm</property>
+  <factor>90</factor>
+  <offset-deg>-90</offset-deg>
+  <center>
+   <x-m>25.9</x-m>
+   <y-m>5.65</y-m>
+   <z-m>-1.5</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>stojki</object-name>
+  <property>/gear/gear[1]/position-norm</property>
+  <factor>45</factor>
+  <offset-deg>-45</offset-deg>
+  <center>
+   <x-m>23.75</x-m>
+   <y-m>0.0</y-m>
+   <z-m>-1.46</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>nosegear</object-name>
+  <property>/gear/gear[1]/position-norm</property>
+  <factor>90</factor>
+  <offset-deg>-90</offset-deg>
+  <center>
+   <x-m>6.90</x-m>
+   <y-m>0.0</y-m>
+   <z-m>-1.1</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>nosegear</object-name>
+  <property>/surface-positions/rudder-pos-norm</property>
+  <factor>-35</factor>
+  <center>
+   <x-m>6.90</x-m>
+   <y-m>0.0</y-m>
+   <z-m>-0.0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>rudder</object-name>
+  <property>/surface-positions/rudder-pos-norm</property>
+  <factor>25</factor>
+  <center>
+   <x-m>40.50</x-m>
+   <y-m>0.0</y-m>
+   <z-m>5.15</z-m>
+  </center>
+  <axis>
+   <x>0.69</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>nosegear</object-name>
+  <property>/gear/gear[0]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>leftgear</object-name>
+  <property>/gear/gear[1]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>rightgear</object-name>
+  <property>/gear/gear[4]/compression-norm</property>
+  <factor>0.6</factor>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>leftaileron</object-name>
+  <property>/surface-positions/left-aileron-pos-norm</property>
+    <factor>-30</factor> <!-- check -->
+  <center>
+   <x-m>31.255</x-m>
+   <y-m>-15.435</y-m>
+   <z-m>-1.045</z-m>
+  </center>
+  <axis>
+    <x>2.69</x>
+    <y>-4.77</y>
+    <z>-0.09</z>
+  </axis>
+</animation>
+				       
+<animation>
+  <type>rotate</type>
+  <object-name>rightaileron</object-name>
+  <property>/surface-positions/right-aileron-pos-norm</property>
+    <factor>30</factor> <!-- check -->
+  <center>
+   <x-m>31.255</x-m>
+   <y-m>15.435</y-m>
+   <z-m>-1.045</z-m>
+  </center>
+  <axis>
+    <x>2.69</x>
+    <y>4.77</y>
+    <z>-0.09</z>
+  </axis>
+</animation>
+
+<!-- FLAPS -->
+
+<animation>
+  <type>rotate</type>
+  <object-name>flapinnerright</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+     <factor>45</factor>
+     <center>
+       <!-- <x-m>25.34</x-m> -->
+       <x-m>25.34</x-m>
+       <y-m>3.80</y-m>
+       <z-m>-1.55</z-m>
+     </center>
+  <axis>
+  <x>0.22</x>
+  <y>3.70</y>
+  <z>-0.05</z>
+  </axis>
+</animation>
+
+
+<animation>
+  <type>rotate</type>
+  <object-name>flapinnerleft</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+     <factor>-45</factor>
+     <center>
+       <!-- <x-m>25.34</x-m> -->
+       <x-m>25.34</x-m>
+       <y-m>-3.80</y-m>
+       <z-m>-1.55</z-m>
+     </center>
+  <axis>
+  <x>0.22</x>
+  <y>-3.70</y>
+  <z>-0.05</z>
+  </axis>
+</animation>
+
+
+<animation>
+  <type>rotate</type>
+  <object-name>flapouterright</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+     <factor>35</factor>
+     <center>
+       <!-- <x-m>25.34</x-m> -->
+       <x-m>29.00</x-m>
+       <y-m>10.40</y-m>
+       <z-m>-1.47</z-m>
+     </center>
+  <axis>
+  <x>2.2</x>
+  <y>5.7</y>
+  <z>-0.1</z>
+  </axis>
+</animation>
+
+
+<animation>
+  <type>rotate</type>
+  <object-name>flapouterleft</object-name>
+  <property>/surface-positions/flap-pos-norm</property>
+     <factor>-35</factor>
+     <center>
+       <!-- <x-m>25.34</x-m> -->
+       <x-m>29.00</x-m>
+       <y-m>-10.40</y-m>
+       <z-m>-1.47</z-m>
+     </center>
+  <axis>
+  <x>2.2</x>
+  <y>-5.7</y>
+  <z>-0.1</z>
+  </axis>
+</animation>
+
+<!-- Spoilers -->
+<animation>
+  <type>rotate</type>
+  <object-name>leftspoiler</object-name>
+  <property>/surface-positions/L-spoiler-pos-norm</property>
+  <factor>50</factor>
+  <center>
+   <x-m>27.165</x-m>
+   <y-m>-8.765</y-m>
+   <z-m>-1.2</z-m>
+  </center>
+  <axis>
+  <x>2.03</x>
+  <y>-4.41</y>
+  <z>0</z>
+  </axis>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>rightspoiler</object-name>
+  <property>/surface-positions/R-spoiler-pos-norm</property>
+  <factor>-50</factor>
+  <center>
+   <x-m>27.165</x-m>
+   <y-m>8.765</y-m>
+   <z-m>-1.2</z-m>
+  </center>
+  <axis>
+  <x>2.03</x>
+  <y>4.41</y>
+  <z>0</z>
+  </axis>
+</animation>
+
+
+
+
+
+
+
+<!-- lights -->
+<animation>
+  <type>select</type>
+    <object-name>bano</object-name>
+  <condition>
+  <equals>
+   <property>controls/lighting/nav-lights</property>
+   <value>true</value>
+  </equals>
+  </condition>
+</animation>
+
+<!-- <animation>
+  <type>select</type>
+    <object-name>cabinlights</object-name>
+  <condition>
+  <equals>
+   <property>controls/lighting/nav-lights</property>
+   <value>true</value>
+  </equals>
+  </condition>
+</animation>-->
+
+<animation>
+  <type>select</type>
+    <object-name>logo</object-name>
+  <condition>
+  <equals>
+   <property>controls/lighting/logo-lights</property>
+   <value>true</value>
+  </equals>
+  </condition>
+</animation>
+
+
+<!-- <animation>
+  <type>select</type>
+    <object-name>landinglight</object-name>
+  <condition>
+  <equals>
+   <property>controls/lighting/nav-lights</property>
+   <value>true</value>
+  </equals>
+  </condition>
+</animation> -->
+
+<animation>
+  <name>beacon1</name>
+  <type>timed</type>
+  <object-name>beacon1</object-name>
+  <object-name>beacon1_off</object-name>
+  <duration-sec>1.0</duration-sec>
+</animation>
+	   
+<!-- <animation>
+    <type>select</type>
+    <object-name>beac1</object-name>
+   <condition>
+     <property>controls/lighting/strobe</property>
+   </condition>
+</animation> -->
+
+<animation>
+  <name>beacon2</name>
+  <type>timed</type>
+  <object-name>beacon2</object-name>
+  <object-name>beacon2_off</object-name>
+  <duration-sec>0.95</duration-sec>
+</animation>
+	   
+<!-- <animation>
+    <type>select</type>
+    <object-name>beacon2</object-name>
+   <condition>
+     <property>controls/lighting/strobe</property>
+   </condition>
+</animation> -->
+
+
+</PropertyList>
