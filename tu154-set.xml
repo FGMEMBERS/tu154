@@ -32,7 +32,7 @@
   </hud>
   
   <model>
-   <path>Aircraft/tu154/Models/tu154-model.xml</path> 
+   <path>Aircraft/tu154/Models/tu154B.xml</path> 
 <!--    <path>Aircraft/tu154/Models/tu154.ac</path> -->
   </model>
 
@@ -40,9 +40,9 @@
    <internal archive="y">true</internal>
    <config>
      <!-- x/y/z == right/up3.26/back-18.16 -->
-     <x-offset-m archive="y">-0.38</x-offset-m>
-     <y-offset-m archive="y">3.00</y-offset-m>
-     <z-offset-m archive="y">-18.16</z-offset-m>
+     <x-offset-m archive="y">-0.43</x-offset-m>
+     <y-offset-m archive="y">1.00</y-offset-m>
+     <z-offset-m archive="y">-19.06</z-offset-m>
      <target-z-offset-m archive="y" type="double">3.949</target-z-offset-m>
      <pitch-offset-deg archive="y">-13.0</pitch-offset-deg>
    </config>
