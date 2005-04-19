@@ -50,6 +50,10 @@
   </view>
 
   <chase-distance-m type="double" archive="y">-90.0</chase-distance-m>
+
+  <help>
+   <title>Tupolev 154</title>
+  </help>
  </sim>
 
  <autopilot>
