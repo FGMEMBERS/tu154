@@ -56,7 +56,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>AileronLeftOuter</object-name>
-  <property>/surface-positions/left-aileron-pos-norm</property>
+  <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-25</factor>
   <center>
    <x-m>10.461</x-m>
@@ -75,7 +75,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>AileronRightOuter</object-name>
-  <property>/surface-positions/left-aileron-pos-norm</property>
+  <property>surface-positions/left-aileron-pos-norm</property>
   <factor>-25</factor>
   <center>
    <x-m>10.461</x-m>
@@ -111,7 +111,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>ElevatorLeft</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>-25</factor>
   <center>
    <x-m>22.6833</x-m>
@@ -128,7 +128,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>ElevatorRight</object-name>
-  <property>/surface-positions/elevator-pos-norm</property>
+  <property>surface-positions/elevator-pos-norm</property>
   <factor>-25</factor>
   <center>
    <x-m>22.6833</x-m>
@@ -145,7 +145,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>Rudder</object-name>
-  <property>/surface-positions/rudder-pos-norm</property>
+  <property>surface-positions/rudder-pos-norm</property>
   <factor>25</factor>
   <center>
    <x-m>18.9383</x-m>
@@ -162,7 +162,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>GearNoseWheels</object-name>
-  <property>/surface-positions/rudder-pos-norm</property>
+  <property>surface-positions/rudder-pos-norm</property>
   <factor>-35</factor>
   <center>
    <x-m>-15.0359</x-m>
@@ -184,7 +184,7 @@ Tupolev 154B-2 model/animation config.
   <object-name>HousingLeftInnerR2</object-name>
   <object-name>HousingRightInnerR1</object-name>
   <object-name>HousingRightInnerR2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -216,7 +216,7 @@ Tupolev 154B-2 model/animation config.
   <object-name>HousingLeftInnerR2</object-name>
   <object-name>HousingRightInnerR1</object-name>
   <object-name>HousingRightInnerR2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -251,7 +251,7 @@ Tupolev 154B-2 model/animation config.
   <type>translate</type>
   <object-name>FlapLeftInner.3</object-name>
   <object-name>FlapRightInner.3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -281,7 +281,7 @@ Tupolev 154B-2 model/animation config.
   <type>translate</type>
   <object-name>FlapLeftInner.2</object-name>
   <object-name>FlapRightInner.2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -316,7 +316,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>FlapLeftInner.3</object-name>
   <object-name>FlapRightInner.3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -351,7 +351,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>FlapLeftInner.2</object-name>
   <object-name>FlapRightInner.2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -386,7 +386,7 @@ Tupolev 154B-2 model/animation config.
   <type>translate</type>
   <object-name>FlapLeftInner.1</object-name>
   <object-name>FlapRightInner.1</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -421,7 +421,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>FlapLeftInner.1</object-name>
   <object-name>FlapRightInner.1</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -455,7 +455,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapLeftInner.4</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -480,7 +480,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapRightInner.4</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -512,7 +512,7 @@ Tupolev 154B-2 model/animation config.
   <type>translate</type>
   <object-name>HousingLeftOuterR1</object-name>
   <object-name>HousingRightOuterR1</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -542,7 +542,7 @@ Tupolev 154B-2 model/animation config.
   <type>translate</type>
   <object-name>HousingLeftOuterR2</object-name>
   <object-name>HousingRightOuterR2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -572,7 +572,7 @@ Tupolev 154B-2 model/animation config.
   <type>translate</type>
   <object-name>HousingLeftOuterR3</object-name>
   <object-name>HousingRightOuterR3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -602,7 +602,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>HousingLeftOuterR1</object-name>
   <object-name>HousingRightOuterR1</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -637,7 +637,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>HousingLeftOuterR2</object-name>
   <object-name>HousingRightOuterR2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -672,7 +672,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>HousingLeftOuterR3</object-name>
   <object-name>HousingRightOuterR3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -708,7 +708,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapLeftOuter.3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -737,7 +737,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapLeftOuter.2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -771,7 +771,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapLeftOuter.1</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -805,7 +805,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>FlapLeftOuter.3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -839,7 +839,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>FlapLeftOuter.2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -873,7 +873,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapLeftOuter.4</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -898,7 +898,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>FlapLeftOuter.4</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -943,7 +943,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapRightOuter.3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -972,7 +972,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapRightOuter.2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1006,7 +1006,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapRightOuter.1</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1040,7 +1040,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>FlapRightOuter.3</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1074,7 +1074,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>FlapRightOuter.2</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1108,7 +1108,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>translate</type>
   <object-name>FlapRightOuter.4</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1133,7 +1133,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>FlapRightOuter.4</object-name>
-  <property>/surface-positions/flap-pos-norm</property>
+  <property>surface-positions/flap-pos-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1167,7 +1167,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorLeft.1</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1201,7 +1201,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorLeft.2</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1235,7 +1235,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorLeft.3</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
    <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1269,7 +1269,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorLeft.4</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
    <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1303,7 +1303,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorRight.1</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1337,7 +1337,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorRight.2</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1371,7 +1371,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorRight.3</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
    <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1405,7 +1405,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearDoorRight.4</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
    <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1440,7 +1440,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>GearDoorLeft.5</object-name>
   <object-name>GearDoorRight.5</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1475,7 +1475,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>GearLeftWheels</object-name>
   <object-name>GearRightWheels</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
  <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1511,7 +1511,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>GearLeft</object-name>
   <object-name>GearRight</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1547,7 +1547,7 @@ Tupolev 154B-2 model/animation config.
   <type>translate</type>
   <object-name>GearStrutLeft.2</object-name>
   <object-name>GearStrutRight.2</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1581,7 +1581,7 @@ Tupolev 154B-2 model/animation config.
   <type>rotate</type>
   <object-name>GearStrutLeft.2and3</object-name>
   <object-name>GearStrutRight.2and3</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1624,7 +1624,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearFront</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <factor>90</factor>
   <offset-deg>-90</offset-deg>
   <center>
@@ -1642,7 +1642,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>GearFrontStrut</object-name>
-  <property>/gear/gear[1]/position-norm</property>
+  <property>gear/gear[1]/position-norm</property>
   <offset-deg>-90</offset-deg>
   <factor>90</factor>
   <center>
@@ -1661,7 +1661,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearFrontDoor.1</object-name>
-  <property>/gear/gear[0]/position-norm</property>
+  <property>gear/gear[0]/position-norm</property>
    <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1695,7 +1695,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearFrontDoor.2</object-name>
-  <property>/gear/gear[0]/position-norm</property>
+  <property>gear/gear[0]/position-norm</property>
    <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1729,7 +1729,7 @@ Tupolev 154B-2 model/animation config.
 <animation>
   <type>rotate</type>
   <object-name>GearFrontDoor.3</object-name>
-  <property>/gear/gear[0]/position-norm</property>
+  <property>gear/gear[0]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1763,7 +1763,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>GearFrontDoor.4</object-name>
-  <property>/gear/gear[0]/position-norm</property>
+  <property>gear/gear[0]/position-norm</property>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1804,7 +1804,7 @@ Tupolev 154B-2 model/animation config.
   <object-name>GearWheelLeft.2</object-name>
   <object-name>GearWheelRight.1</object-name>
   <object-name>GearWheelRight.2</object-name>
-  <property>/velocities/uBody-fps</property>
+  <property>velocities/uBody-fps</property>
   <factor>-3</factor>
   <center>
    <x-m>4.20959</x-m>
@@ -1824,7 +1824,7 @@ Tupolev 154B-2 model/animation config.
   <object-name>GearWheelLeft.4</object-name>
   <object-name>GearWheelRight.3</object-name>
   <object-name>GearWheelRight.4</object-name>
-  <property>/velocities/uBody-fps</property>
+  <property>velocities/uBody-fps</property>
   <factor>-3</factor>
   <center>
    <x-m>5.26752</x-m>
@@ -1844,7 +1844,7 @@ Tupolev 154B-2 model/animation config.
   <object-name>GearWheelLeft.6</object-name>
   <object-name>GearWheelRight.5</object-name>
   <object-name>GearWheelRight.6</object-name>
-  <property>/velocities/uBody-fps</property>
+  <property>velocities/uBody-fps</property>
   <factor>-3</factor>
   <center>
    <x-m>6.28045</x-m>
@@ -1862,7 +1862,7 @@ Tupolev 154B-2 model/animation config.
   <type>spin</type>
   <object-name>GearWheelNose.1</object-name>
   <object-name>GearWheelNose.2</object-name>
-  <property>/velocities/uBody-fps</property>
+  <property>velocities/uBody-fps</property>
   <factor>-3</factor>
   <center>
    <x-m>-14.9669</x-m>
@@ -1899,7 +1899,7 @@ Tupolev 154B-2 model/animation config.
   <type>spin</type>
   <object-name>EngineFan.2</object-name>
   <factor>67</factor>
-  <property>/engines/engine/N1</property>
+  <property>engines/engine/N1</property>
   <center>
    <x-m>11.1364</x-m>
    <y-m>3.3775</y-m>
@@ -1964,7 +1964,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>ShadowMap</object-name>
-  <property>/orientation/pitch-deg</property>
+  <property>orientation/pitch-deg</property>
   <factor>-1.0</factor>
   <center>
    <x-m>0</x-m>
@@ -1982,7 +1982,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>rotate</type>
   <object-name>ShadowMap</object-name>
-  <property>/orientation/roll-deg</property>
+  <property>orientation/roll-deg</property>
   <factor>1.0</factor>
   <center>
    <x-m>0</x-m>
@@ -2000,7 +2000,7 @@ Tupolev 154B-2 model/animation config.
  <animation>
   <type>translate</type>
   <object-name>ShadowMap</object-name>
-  <property>/position/altitude-agl-ft</property>
+  <property>position/altitude-agl-ft</property>
   <factor>-0.3</factor>
   <center>
    <x-m>0</x-m>
