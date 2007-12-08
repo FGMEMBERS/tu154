@@ -7,7 +7,7 @@
  <animation>
   <type>rotate</type>
   <object-name>rud</object-name>
-  <property>/controls/engines/engine[2]/throttle</property>
+  <property>controls/engines/engine[2]/throttle</property>
   <factor>36</factor>
   <axis>
    <x>0</x>

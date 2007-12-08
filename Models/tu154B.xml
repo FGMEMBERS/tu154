@@ -35,7 +35,7 @@ Tupolev 154B-2 model/animation config.
   <condition>
    <not>
     <equals>
-     <property>/sim/current-view/view-number</property>
+     <property>sim/current-view/view-number</property>
      <value>0</value>
     </equals>
    </not>
@@ -1930,7 +1930,7 @@ Tupolev 154B-2 model/animation config.
   <type>select</type>
   <object-name>BeaconFlasher</object-name>
   <condition>
-   <property>/controls/lighting/beacon</property>
+   <property>controls/lighting/beacon</property>
   </condition>
  </animation>
 
@@ -1940,7 +1940,7 @@ Tupolev 154B-2 model/animation config.
   <object-name>RightNavLightOff</object-name>
   <condition>
    <not>
-    <property>/controls/lighting/nav-lights</property>
+    <property>controls/lighting/nav-lights</property>
    </not>
   </condition>
  </animation>
@@ -1950,7 +1950,7 @@ Tupolev 154B-2 model/animation config.
   <object-name>LeftNavLightOn</object-name>
   <object-name>RightNavLightOn</object-name>
   <condition>
-    <property>/controls/lighting/nav-lights</property>
+    <property>controls/lighting/nav-lights</property>
   </condition>
  </animation>
 
