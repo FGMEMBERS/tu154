@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+
+<!--
+Modularized lighted buttons added March 5 2001
+by John Check, <j4strngs@rockfish.net>
+Wing leveler and climb/descent added Feb 2001
+by Curtis Olson, <curt@infoplane.com>
+APR by Jim Wilson <jimw@kelcomaine.com> Feb 2002
+_______________________________________________________________________________
+Default autopilot instrument.
+
+Started summer 2000 by David Megginson, david@megginson.com.
+
+-->
+
+<PropertyList>
+ <name>light</name>
+ <w-base>32</w-base>
+ <h-base>32</h-base>
+
+ <layers>
+
+  <layer>
+   <name>WL button</name>
+   <type>switch</type>
+  
+   <layer>
+    <condition>
+     <property>/engines/engine/rpm[0]</property>
+    </condition>
+    <name>WL on</name>
+    
+    <texture>
+     <path>Aircraft/Instruments/Textures/blister.rgb</path>
+     <x1>0.0</x1>
+     <x2>0.21875</x2>
+     <y1>0.328125</y1>
+     <y2>0.4921875</y2>
+    </texture>
+    
+    <w>32</w>
+    <h>16</h>
+   </layer>
+   
+   <layer>
+    <name>WL off</name>
+    <texture>
+     <path>Aircraft/Instruments/Textures/blister.rgb</path> 
+     <x1>0.0</x1>
+     <x2>0.21875</x2>
+     <y1>0.1640625</y1>
+     <y2>0.328125</y2>
+    </texture>
+    <w>32</w>
+    <h>16</h>
+   </layer>
+   
+   <transformations>
+    <transformation>
+     <type>x-shift</type>
+     <offset>-76</offset>
+    </transformation>
+   </transformations>
+  </layer>
+  
+  <layer>
+    <name>WL top</name>
+    <texture>
+     <path>Aircraft/Instruments/Textures/blister.rgb</path> 
+     <x1>0.0</x1>
+     <x2>0.21484375</x2>
+     <y1>0.0</y1>
+     <y2>0.16796875</y2>
+    </texture>
+    <w>32</w>
+    <h>16</h>
+   <transformations>
+    <transformation>
+     <type>x-shift</type>
+     <offset>-76</offset>
+    </transformation>
+   </transformations>
+  </layer> 
+ 
+  <layer>
+   <name>WL label</name>
+    <texture>
+     <path>Aircraft/Instruments/Textures/blister.rgb</path> 
+     <x1>0.421875</x1>
+     <x2>0.546875</x2>
+     <y1>0.0675</y1>
+     <y2>0.125</y2>
+    </texture>
+    <w>20</w>
+    <h>8</h>
+   <transformations>
+    <transformation>
+     <type>x-shift</type>
+     <offset>-76</offset>
+    </transformation>
+   </transformations>
+   </layer>  
+
+ </layers>
+
+ <actions>
+
+  <action>
+   <name>alternator switch</name>
+   <button>0</button>
+   <!-- <x>0</x>
+   <y>0</y> -->
+   <w>32</w>
+   <h>32</h>
+
+   <binding>
+    <command>property-toggle</command>
+    <property>/controls/electric/engine[0]/generator[0]</property>
+   </binding>
+  </action>
+
+ </actions>
+
+</PropertyList>
+
+
